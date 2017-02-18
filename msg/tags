@@ -1,0 +1,29 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+CLIENT_TYPE	comm.h	6;"	d
+MAX_SIZE	comm.h	3;"	d
+PATHNAME	comm.h	4;"	d
+PROJID	comm.h	5;"	d
+SERVER_TYPE	comm.h	7;"	d
+_COMM_	comm.h	2;"	d
+cc	Makefile	/^cc=gcc$/;"	m
+cli	Makefile	/^cli=client$/;"	m
+cliSrc	Makefile	/^cliSrc=comm.c client.c$/;"	m
+commMegqueue	comm.c	/^static int commMegqueue(int ID)$/;"	f	file:
+creatMegqueue	comm.c	/^int creatMegqueue()$/;"	f
+destoryMegqueue	comm.c	/^int destoryMegqueue(int msgid)$/;"	f
+getMegqueue	comm.c	/^int getMegqueue()$/;"	f
+main	client.c	/^int main()$/;"	f
+main	server.c	/^int main()$/;"	f
+meginfo	comm.h	/^typedef struct meginfo{$/;"	s
+meginfo	comm.h	/^}meginfo;$/;"	t	typeref:struct:meginfo
+mtext	comm.h	/^	char mtext[MAX_SIZE];$/;"	m	struct:meginfo
+mtype	comm.h	/^	long mtype;$/;"	m	struct:meginfo
+rcvMeg	comm.c	/^int rcvMeg(int msgid,char out[],int type)$/;"	f
+ser	Makefile	/^ser=server$/;"	m
+serSrc	Makefile	/^serSrc=comm.c server.c$/;"	m
+sndMeg	comm.c	/^int sndMeg(int msgid,int type,char* meg)$/;"	f
