@@ -1,0 +1,24 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+Linklist	mythread.c	/^typedef struct Linklist$/;"	s	file:
+Linklist	mythread.c	/^}Linklist,*pLinklist;$/;"	t	typeref:struct:Linklist	file:
+_data	mythread.c	/^	int _data;$/;"	m	struct:node	file:
+_next	mythread.c	/^	struct node* _next;$/;"	m	struct:node	typeref:struct:node::node	file:
+consumer_thread	mythread.c	/^void* consumer_thread(void* arg)$/;"	f
+creatNode	mythread.c	/^pnode creatNode(int data)$/;"	f
+destoryList	mythread.c	/^void destoryList(pLinklist list)$/;"	f
+initList	mythread.c	/^void initList(pLinklist plist)$/;"	f
+main	mythread.c	/^int main()$/;"	f
+node	mythread.c	/^typedef struct node$/;"	s	file:
+node	mythread.c	/^}node,*pnode;$/;"	t	typeref:struct:node	file:
+pLinklist	mythread.c	/^}Linklist,*pLinklist;$/;"	t	typeref:struct:Linklist	file:
+phead	mythread.c	/^	node * phead;$/;"	m	struct:Linklist	file:
+pnode	mythread.c	/^}node,*pnode;$/;"	t	typeref:struct:node	file:
+popHead	mythread.c	/^void popHead(pLinklist list,int* data)$/;"	f
+producter_thread	mythread.c	/^void* producter_thread(void* arg)$/;"	f
+pushHead	mythread.c	/^void pushHead(pLinklist list,int data)$/;"	f
+showList	mythread.c	/^void showList(pLinklist list)$/;"	f
