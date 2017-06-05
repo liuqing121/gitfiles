@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">SQLite Practice</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="Add_New">Add Contact Person</string>
+    <string name="edit">Edit</string>
+    <string name="delete">Delete</string>
+    <string name="title_activity_show_contact">Show Contact</string>
+    <string name="name">Name</string>
+    <string name="phone">Phone</string>
+    <string name="landline">Landline</string>
+    <string name="save">Save</string>
+    <string name="deleteContact">It would be deleted!</string>
+    <string name="yes">Sure</string>
+    <string name="cancel">Cancle</string>
+</resources>
